@@ -4,46 +4,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/custom.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico.jpg">
         <title>Home Page</title>
     </head>
     <body>
       <header>
-          
-        <!-- Need some help. Not sure how to build this section. -->
 
-
-        <!-- <img class="img-logo" src="" alt="">
-        <div class="container-fluid"> 
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Staff</a>
-            <a class="nav-link" href="#">Support Us</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src=”image/logo-icon.jpg” alt=”logo” ></a> 
+            <!-- Doesn't want to seem to work. Not sure why -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Staff</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support Us</a>
+                </li>
+              </ul>
             </div>
-          </div> -->
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Members</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Staff</a>
-                  </li>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+          </div>
+          <div class="search-bar">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+        </div>
+          </div>
+        </nav>
       </header>
 
        
@@ -52,26 +46,26 @@
         <section id="hero">
           <h1>Riverside Art Center</h1>
           <!-- I want to expant the image as a banner photo. -->
-          <img src="images/Cover-photo-optamize.jpg" alt="">
+          <img class="w-100" src="images/Cover-photo-optamize.jpg" alt="">
 
         </section>
-        <section>
-          
         
+        
+        <section>
 
         <h2>Services</h2>
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/group-painting-optimize.jpg" class="d-block w-100" alt="...">
+              <img class="w-50" src="images/group-painting-optimize.jpg" class="d-block w-100" alt="...">
               <span>The Creative Pod</span>
             </div>
             <div class="carousel-item">
-              <img src="images/Oil-Paint-optimize.jpg" class="d-block w-100" alt="...">
+              <img class="w-50" src="images/Oil-Paint-optimize.jpg" class="d-block w-100" alt="...">
               <span>Paint for Purpose</span>
             </div>
             <div class="carousel-item">
-              <img src="images/freehand-drawing-optamize.jpg" class="d-block w-100" alt="...">
+              <img class="w-45" src="images/freehand-drawing-optamize.jpg" class="d-block w-100" alt="...">
               <span>The Art of Freehand</span>
             </div>
           </div>
